@@ -1,0 +1,48 @@
+    1  sudo ls
+    2  cd
+    3  exit
+    4  ls
+    5  pwd
+    6  exit
+    7  cd
+    8  ls 
+    9  tmux
+   10  exit
+   11  sudo nano /etc/motd
+   12  git
+   13  git config --config
+   14  git config --config user.name "valsangeo"
+   15  git config --global user.name "valsangeo"
+   16  git config --global user.email "valsangeo@gmail.com"
+   17  git config list
+   18  git config --list
+   19  pwd
+   20  ls
+   21  mkdir test
+   22  cd test/
+   23  cat /etc/motd >> README.MD
+   24  cat README.MD 
+   25  ls -l
+   26  git init
+   27  git remote add origin https://github.com/valsangeo/test
+   28  git add README.MD
+   29  git commit -m "first commit"
+   30  git push -u origin master
+   31  ls -la
+   32  cd 
+   33  ls -la
+   34  wget dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
+   35  rpm -ihv epel-release-7-11.noarch.rpm
+   36  sudo rpm -ihv epel-release-7-11.noarch.rpm
+   37  yum install htop
+   38  sudo yum install htop
+   39  htop
+   40  watch free -m
+   41  tmux
+   42  git branch -a
+   43  ls
+   44  cd test/
+   45  git branch -a
+   46  git checkout -b comandos
+   47  git branch -a
+   48  history >> comandos.txt
